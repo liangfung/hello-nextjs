@@ -14,3 +14,11 @@ express做路由，兼容 client side routing。因为客户端navigate的时候
 
 ## fetching data for pages
 重点，敲黑板，`getInitialProps`
+
+### fetch
+fetch on **client side** vs **server side**
+
+如果在`getInitialProps`这个生命周期fetch data的话，有两种情况
+- server side routing --- fetch at server
+- client side routing --- fetch at browser
+
