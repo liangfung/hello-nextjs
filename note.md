@@ -22,3 +22,6 @@ fetch on **client side** vs **server side**
 - server side routing --- fetch at server
 - client side routing --- fetch at browser
 
+
+## styling
+css in js
